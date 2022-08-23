@@ -1,6 +1,9 @@
 name: is_wear
-description: A new Flutter plugin project.
+description: Flutter plugin to check if current device is a wearable.
 version: 0.0.1
+
+repository: https://github.com/imrhk/is_wear
+issue_tracker: https://github.com/imrhk/is_wear/issues
 
 
 environment:
