@@ -10,8 +10,8 @@ public class IsWearPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     switch call.method {
-    case "getPlatformVersion":
-      result("macOS " + ProcessInfo.processInfo.operatingSystemVersionString)
+    case "check":
+      result(false)
     default:
       result(FlutterMethodNotImplemented)
     }
