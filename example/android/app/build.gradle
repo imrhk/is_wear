@@ -60,6 +60,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    namespace 'com.litedevs.is_wear_example'
 }
 
 flutter {
